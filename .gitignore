@@ -4,3 +4,4 @@ db.sqlite
 api/rockyou_*.txt
 api/text_to_lines.py
 */migrations/
+*data.db
