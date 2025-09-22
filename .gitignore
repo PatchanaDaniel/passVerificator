@@ -1,0 +1,6 @@
+db.sqlite
+*/__pycache__/
+*.pyc
+api/rockyou_*.txt
+api/text_to_lines.py
+*/migrations/
