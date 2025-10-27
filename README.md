@@ -27,7 +27,7 @@ python manage.py runserver
 
 ### Vérification d’un mot de passe
 
-Envoyez une requête POST à l’endpoint `/api/check-password/` avec le mot de passe à vérifier :
+Envoyez une requête POST à l'endpoint `/api/check-password/` avec le mot de passe à vérifier :
 
 ```json
 {
