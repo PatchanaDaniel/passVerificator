@@ -8,6 +8,11 @@ from .bloom_loader import BLOOM
 class PasswordCheckAPIView(APIView):
     """
     Vérifie si le mot de passe est présent dans rockyou.txt
+    password: mot de passe à vérifier
+    example request:
+    {
+        "password": "1234"
+    }
     """
 
     def post(self, request):
